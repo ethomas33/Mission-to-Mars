@@ -16,7 +16,9 @@
       <div class="jumbotron text-center">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a button type ="button" class="btn btn-success btn-lg" href="/scrape"><strong>Scrape New Data</strong></a></p>
+        <p>
+          <button type ="button" class="btn btn-success btn-lg" href="/scrape"><strong>Scrape New Data</strong></button>
+        </p>
       </div>
 
       <!-- Add section for Mars News -->
@@ -48,7 +50,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
-            <h4>Mars Facts</h4>
+            <h4><strong> Mars Facts </strong></h4>
             {{ mars.facts | safe }}
           </div>
         </div>
